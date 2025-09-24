@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUBG Banner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: #111;
+    }
+    .navbar .logo {
+      color: yellow;
+      font-weight: bold;
+    }
+    .navbar nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .navbar .btn {
+      background: gold;
+      padding: 10px 20px;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .banner {
+      height: 90vh;
+      background: url("026b441a88dfc0194633755f033f7f553dfded55.png") no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .banner-content {
+      text-align: center;
+      background: rgba(255, 200, 0, 0.8);
+      padding: 20px 40px;
+      border-radius: 5px;
+    }
+    .banner-content h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .buttons {
+      margin-top: 15px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      background: black;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .buttons a.pc {
+      background: gold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">PUBG</div>
+    <nav>
+      <a href="#">Game info</a>
+      <a href="#">News</a>
+      <a href="#">Media</a>
+      <a href="#">Community</a>
+      <a href="#">Support</a>
+    </nav>
+    <a href="#" class="btn">PLAY NOW</a>
+  </div>
+
+  <div class="banner">
+    <div class="banner-content">
+      <h1>ERANGEL CLASSIC RETURNS</h1>
+      <div class="buttons">
+        <a href="#" class="pc">PC</a>
+        <a href="#">CONSOLE</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
